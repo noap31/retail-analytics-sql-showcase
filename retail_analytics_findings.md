@@ -11,7 +11,7 @@ One methodological note that applies throughout: BigQuery has no built-in signif
 Of 1,037 distinct app-linked visitor devices (352 repeat + 409 occasional + 276 non-paying), 352 are repeat customers, 409 are occasional (one-time-tagged but sometimes returning) customers, and 276 devices never complete a purchase at all. A separate 3,596 transactions come through with no linked visitor ID at all. 
 Revenue concentrates hard in the repeat group:
 
-![Revenue concentrated in repeat customers](charts/01_revenue_mix.png)
+![Revenue concentrated in repeat customers](01_revenue_mix.png)
 
 Repeat customers are about 46% of identified (app-linked) customers but roughly 92% of revenue — the other two segments barely move the needle. That's the business case for watching the repeat segment closely, and for the churn checks the showcase runs on it specifically.
 
