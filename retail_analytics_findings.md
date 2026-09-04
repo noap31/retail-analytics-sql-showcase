@@ -25,7 +25,7 @@ The split comes back close to even across all four quadrants: 40 customers are a
 
 **Two independent churn checks.** Version A splits the study period in half and flags anyone active in the first half with zero activity in the second. this comes back zero, Version B compares each customer's current quiet streak against *their own* typical gap between visits, rather than one fixed cutoff for everyone. comes back near-zero — and the showcase's three-step supporting proof shows exactly why:
 
-![Repeat customers show up every week; occasional customers decline](charts/02_churn_proof.png)
+![Repeat customers show up every week; occasional customers decline](02_churn_proof.png)
 
 *(Real weekly counts from the study's 26-week period, business weeks 22-47 — not a simulated illustration. The regression on the right panel is fit directly on this data: slope -0.245/week, R² = 0.184, p = 0.0288, matching the numbers quoted below.)*
 
