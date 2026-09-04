@@ -17,7 +17,7 @@ Repeat customers are about 46% of identified (app-linked) customers but roughly 
 
 **Which occasional customers are worth marketing to?** Of the 409 occasional customers, 149 have visited 3+ times. The cutoff sits at 3, not higher, because it doesn't need to be higher: the most any occasional customer visits over the whole study period is 7, and most don't get anywhere near that, so a 3-visit floor already spans the group's real range. Customers with only 1-2 visits are excluded here not because they're one-time buyers, but because two data points aren't enough to say anything meaningful about a customer's own recency/frequency pattern. For the 149 with enough visits to analyze, the showcase computes recency (days since last visit), frequency (total visits), and average basket size per customer: the inputs for a customer investment/priority matrix that splits customers into four quadrants by basket size (above/below the group median) and current activity (visited within the last 30 days of the study window, or gone quiet).
 
-![Customer investment matrix: basket size vs. recency](charts/03_customer_investment_matrix.png)
+![Customer investment matrix: basket size vs. recency](03_customer_investment_matrix.png)
 
 *(The showcase query returns each customer's raw recency, frequency, and basket size; the median-basket split (NIS 317) and 30-day activity cutoff used to assign quadrants here are applied downstream, the same way the staffing heatmap's cell colors are further below.)*
 
