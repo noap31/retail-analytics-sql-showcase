@@ -93,7 +93,7 @@ Run on the real data: of 1,269 localities in the census table, only 332 have eve
 
 The other 802 (~1.61M people) are ordinary Israeli localities. Most are genuinely small villages where "no listed supermarket" is plausible. But restricting to cities with 10,000+ residents (the same size cutoff the ratio check already treats as individually meaningful) tells a sharper story:
 
-![Population predicts supermarket count — until it doesn't](charts/06_registry_coverage_gap.png)
+![Population predicts supermarket count — until it doesn't](06_registry_coverage_gap.png)
 
 Among 140 such cities (West Bank/PA excluded), population reliably predicts real-supermarket count for the 92 that have any (R² = 0.76, roughly one supermarket per 6,400 residents on the margin) — but 48 of the 140 (34%) sit at zero real supermarkets regardless of population, including cities of 40,000-60,000+ people like Umm al-Fahm, Tayibe, and Shefa-'Amr. Checked by hand: 44 of those 48 are Arab, Druze, or Bedouin towns. That's a demographically patterned gap in what the registry covers, not scattered data-entry noise — a materially stronger "is this registry credible" finding than the per-city ratio check above, and one a business relying on this registry (for store-locator features, market-sizing, expansion planning) should know about before trusting it at face value.
 
